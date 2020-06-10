@@ -12,6 +12,6 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use("/api/register", register);
 
-app.listen(5002);
+app.listen(8080);
 
-console.log("Server running on port 5002");
+console.log("Server running on port 8080");

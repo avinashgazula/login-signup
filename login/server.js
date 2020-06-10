@@ -13,6 +13,6 @@ app.use(morgan("dev"));
 app.use("/api/login", login);
 app.use("/api/session", session);
 
-app.listen(5001);
+app.listen(8080);
 
-console.log("Server running on port 5001");
+console.log("Server running on port 8080");

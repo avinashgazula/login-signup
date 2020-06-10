@@ -12,6 +12,6 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use("/api/session", session);
 
-app.listen(5003);
+app.listen(8080);
 
-console.log("Server running on port 5003");
+console.log("Server running on port 8080");
