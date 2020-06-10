@@ -23,9 +23,12 @@ const loginUser = async (req, res, next) => {
                 delete result[0]["password"];
                 if (result.length) {
                     axios
-                        .post("/api/session/login", {
-                            email,
-                        })
+                        .post(
+                            "https://login-service-njeftlxetq-de.a.run.app/api/session/login",
+                            {
+                                email,
+                            }
+                        )
                         .then((resp) => {
                             console.log(resp);
                         })
